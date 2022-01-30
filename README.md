@@ -19,7 +19,7 @@
 
 # I. Overview 
 
-At Blue Terra we believe in the vision of building a protocol for the democratizing property ownership rights. 
+At Blue Terra we believe in building the defacto protocol to facilitate the democratizing property ownership rights globally. 
 
 Doing this means sharing some of the secret sauce that makes Blue Terra possible so that others may build on the model.
 
