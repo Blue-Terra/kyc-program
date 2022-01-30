@@ -5,7 +5,7 @@
         src="./docs/img/logo.png">
     </img>
     <div align="center">
-        <h2 style="font-size:22px;line-height:40px">
+        <h2 style="font-size:22px;line-height:50px">
             Blue Terra Engineering
             <br/>
             KYC Program
