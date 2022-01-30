@@ -22,7 +22,11 @@
 
 # I. Overview 
 
-At Blue Terra we believe in the vision of building a protocol for the democratizing property ownership rights. Doing this means sharing some of the secret sauce that makes Blue Terra possible so that others may expand the model. The following is the Anchor Program used in our claim land and kyc process.
+At Blue Terra we believe in the vision of building a protocol for the democratizing property ownership rights. 
+
+Doing this means sharing some of the secret sauce that makes Blue Terra possible so that others may expand the model. 
+
+The following is the Anchor Program used in our claim land and kyc process.
 
 # I. Program
 
