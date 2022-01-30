@@ -25,7 +25,13 @@ To this end, we believe in the power of sharing some of the secret sauce that ma
 
 This repo contains the source code for the Blue Terra [Civic](https://www.civic.com/) KYC nonce Solana program.
 
-# I. Program
+# II. Requirements
+
+1) [Rustup](https://rustup.rs/)
+2) [Solana](https://docs.solana.com/cli/install-solana-cli-tools)
+3) [Anchor](https://github.com/project-serum/anchor)
+
+# III. Program
 
 The following is a high level description of the Anchor Program used in our claim land and KYC process. 
 
@@ -36,12 +42,6 @@ In particular, if a Blue Terra NFT holder has a valid KYC, through the posession
 The program contains one instruction, `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
 
 On detection of valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user to the program standard output.
-
-# III. Requirements
-
-1) [Rustup](https://rustup.rs/)
-2) [Solana](https://docs.solana.com/cli/install-solana-cli-tools)
-3) [Anchor](https://github.com/project-serum/anchor)
 
 ## III. Building
 
