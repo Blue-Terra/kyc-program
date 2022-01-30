@@ -31,11 +31,11 @@ The following is a high level description of the Anchor Program used in our clai
 
 The program is a minimalist nonce written in Anchor Lang and provides Blue Terra a simple way to keep track of KYC verified wallets and civic tokens on-chain.
 
-In particular, if a Blue Terra NFT holder has a valid KYC, through the posession of a a valid civic `gatewayToken` spl token, then they will be able to interact with a the Blue Terra KYC Program to claim their land and activate the leases embedded within the NFTs.
+In particular, if a Blue Terra NFT holder has a valid KYC, through the posession of a a valid civic `gatewayToken` spl token, then they will be able to interact with the `kyc-program` to claim their land and activate the leases embedded within their NFTs.
 
 The program contains one instruction `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
 
-On detection of valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user.
+On detection of valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user to the program standard output.
 
 # III. Requirements
 
@@ -71,7 +71,5 @@ Great, now you have this Solana Nonce Program onchain, now you want your client 
 We recommend using the [@project-serum/anchor](https://www.npmjs.com/package/@project-serum/anchor) to instrument 
 program rpc requests from the client. 
 
-
-
-
+Additionally, the [@solana/web3.js](https://solana-labs.github.io/solana-web3.js/) may be of use to you to query the program.
 
