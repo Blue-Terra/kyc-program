@@ -17,7 +17,7 @@
 </p>
 
 
-# I. Overview 
+# I. Introduction
 
 Blue Terra is a decentralized protocol for the global democratization of stable and accessible property rights.  
 
@@ -31,7 +31,7 @@ This repo contains the source code for the Blue Terra [Civic](https://www.civic.
 2) [Solana](https://docs.solana.com/cli/install-solana-cli-tools)
 3) [Anchor](https://github.com/project-serum/anchor)
 
-# III. Program
+# III. Program Overview
 
 The following is a high level description of the Anchor Program used in our claim land and KYC process. 
 
@@ -43,7 +43,42 @@ The program contains one instruction, `claimLand`. This instruction leverages th
 
 On detection of a valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user to the program standard output.
 
-## III. Building
+
+# IV. Program IDL
+
+```
+{
+  "version": "0.1.0",
+  "name": "bt_kyc",
+  "instructions": [
+    {
+      "name": "claimLand",
+      "accounts": [
+        {
+          "name": "gatewayToken",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "userWallet",
+          "isMut": true,
+          "isSigner": true
+        }
+      ],
+      "args": [
+        {
+          "name": "gatekeeperNetwork",
+          "type": "publicKey"
+        }
+      ]
+    }
+  ]
+}
+```
+
+
+
+# V. Building
 
 To build this program run: 
 
@@ -51,7 +86,7 @@ To build this program run:
 
 On successful build you will have a `target` directory in your top level.
 
-## IV. Deployment 
+# VI. Deployment 
 
 To deploy the program follow the steps below: 
 
@@ -65,7 +100,7 @@ Finally run the following:
 
     anchor deploy 
 
-## V. Client Side Instrumentation
+# VII. Client Side Instrumentation
 
 To interact with the program from a NodeJS client we recommend using:
 
