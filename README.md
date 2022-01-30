@@ -80,7 +80,7 @@ A high level sketch of this interaction can be found below.
 <br/>
 <p align="center">
     <img
-        style="width:90%;height:auto;"
+        style="width:95%;height:auto;"
         src="./docs/img/client.png">
     </img>
 </p>
