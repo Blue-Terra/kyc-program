@@ -75,7 +75,7 @@ To interact with the program from a NodeJS client we recommend using:
 4) [@solana/wallet-adapter](https://www.npmjs.com/package/@solana/wallet-adapter) for Solana React wallet adapter components. 
 <br/>
 <br/>
-A high level sketch of this interaction can be found below. 
+A high level sketch of this interaction can be found below. Using the included React hooks from the packages above is often useful.
 <br/>
 <br/>
 <p align="center">
