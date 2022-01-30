@@ -19,9 +19,9 @@
 
 # I. Overview 
 
-At Blue Terra we believe in building the protocol to facilitate the global democratizing of property ownership rights.
+Blue Terra is a decentralized protocol for the global democratization of stable and accessible property rights.  
 
-To this end, we believe in the power of sharing some of the secret sauce that makes Blue Terra possible so that others may build and expand on the core model.
+Toward this end, we believe in the power of sharing some of the secret sauce that makes Blue Terra possible so that others may build and expand on the core model.
 
 This repo contains the source code for the Blue Terra [Civic](https://www.civic.com/) KYC nonce Solana program.
 
@@ -37,11 +37,11 @@ The following is a high level description of the Anchor Program used in our clai
 
 The program is a minimalist nonce written in Anchor Lang and provides Blue Terra a simple way to keep track of KYC verified wallets and civic tokens on-chain.
 
-In particular, if a Blue Terra NFT holder has a valid KYC, through the posession of a a valid civic `gatewayToken` spl token, then they will be able to interact with the `kyc-program` to claim their land and activate the leases embedded within their NFTs.
+In particular, if a Blue Terra NFT holder has a valid KYC, through the posession of a a valid civic `gatewayToken` SPL token, then they will be able to interact with the `kyc-program` to claim their land and activate the leases embedded within their NFTs.
 
 The program contains one instruction, `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
 
-On detection of valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user to the program standard output.
+On detection of a valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user to the program standard output.
 
 ## III. Building
 
@@ -49,7 +49,7 @@ To build this program run:
 
     anchor build 
 
-On successful build you will have a `target` directory in your top level directory.
+On successful build you will have a `target` directory in your top level.
 
 ## IV. Deployment 
 
