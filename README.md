@@ -67,7 +67,7 @@ Finally run the following:
 
 ## V. Client Side Instrumentation
 
-We recommend using:
+To interact with the program from a NodeJS client we recommend using:
 
 1) [@project-serum/anchor](https://www.npmjs.com/package/@project-serum/anchor) to instrument program rpc requests from the client. 
 2) [@solana/web3.js](https://www.npmjs.com/package/@solana/web3.js) for NodeJS Solana libraries. 
@@ -80,7 +80,7 @@ A high level sketch of this interaction can be found below.
 <br/>
 <p align="center">
     <img
-        style="width:80%;height:auto;"
+        style="width:90%;height:auto;"
         src="./docs/img/client.png">
     </img>
 </p>
