@@ -26,7 +26,7 @@ At Blue Terra we believe in the vision of building a protocol for the democratiz
 
 Doing this means sharing some of the secret sauce that makes Blue Terra possible so that others may expand the model. 
 
-The following is the Anchor Program used in our claim land and kyc process.
+The following is the Anchor Program used in our claim land and KYC process.
 
 # I. Program
 
