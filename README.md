@@ -5,7 +5,7 @@
         src="./docs/img/logo.png">
     </img>
     <div align="center">
-        <h3 style="font-size:22px;line-height:40px">
+        <h3 style="font-size:26px;line-height:40px">
             Blue Terra Engineering
             <br/>
             <br/>
