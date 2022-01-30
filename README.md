@@ -4,7 +4,7 @@
         style="width:20%;height:auto;"
         src="./docs/img/logo.png">
     </img>
-    <div align="center" style="font-size:22px">
+    <div align="center">
         <p style="font-size:22px;line-height:40px">
             Blue Terra Engineering
             <br/>
