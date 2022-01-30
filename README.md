@@ -1,11 +1,10 @@
 </br>
-<div
-    style="display:flex;align-items:center;justify-content:center;">
+<p align="center">
     <img
-        style="width:15%;height:auto;"
+        style="width:20%;height:auto;"
         src="./docs/img/logo.png">
     </img>
-</div>
+</p>
 
 <div style="font-size:2.0em;text-align:center;">
     Blue Terra Engineering
