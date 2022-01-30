@@ -4,14 +4,16 @@
         style="width:20%;height:auto;"
         src="./docs/img/logo.png">
     </img>
+    <div style="font-size:2.0em;text-align:center;">
+        Blue Terra Engineering
+    </div>
+    <div style="font-size:1.7em;text-align:center;">
+        KYC Program
+    </div>
 </p>
 
-<div style="font-size:2.0em;text-align:center;">
-    Blue Terra Engineering
-</div>
-<div style="font-size:1.7em;text-align:center;">
-    KYC Program
-</div>
+
+
 
 # I. Overview 
 
