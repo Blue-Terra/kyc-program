@@ -4,13 +4,13 @@
         style="width:20%;height:auto;"
         src="./docs/img/logo.png">
     </img>
-    <div align="center">
-        <h2 style="font-size:22px;line-height:50px">
+    <div align="center" style="font-size:22px">
+        <p style="font-size:22px;line-height:40px">
             Blue Terra Engineering
             <br/>
             KYC Program
             <br/>
-        </h2>
+        </p>
         <br/>
     </div>
 </p>
