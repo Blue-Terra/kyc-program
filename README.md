@@ -21,7 +21,7 @@
 
 At Blue Terra we believe in building the protocol to facilitate the global democratizing of property ownership rights.
 
-Doing this means sharing some of the secret sauce that makes Blue Terra possible so that others may build on the model.
+To this end, we believe in the power of sharing some of the secret sauce that makes Blue Terra possible so that others may build and expand on the model.
 
 The following is the Anchor Program used in our claim land and KYC process. This repo contains the source code for the Blue Terra [Civic](https://www.civic.com/) KYC nonce Solana program.
 
