@@ -1,21 +1,19 @@
 </br>
-<div align="center">
+<p align="center">
     <img
         style="width:20%;height:auto;"
         src="./docs/img/logo.png">
     </img>
     <div align="center">
-        <h1 style="font-size:22px">
+        <p style="font-size:22px;line-height:40px">
             Blue Terra Engineering
-            <br/>
             <br/>
             KYC Program
             <br/>
-        </h1>
+        </p>
         <br/>
     </div>
-    <br/>
-</div>
+</p>
 
 
 
