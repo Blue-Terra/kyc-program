@@ -1,16 +1,16 @@
 </br>
-<p align="center">
+<div align="center">
     <img
         style="width:20%;height:auto;"
         src="./docs/img/logo.png">
     </img>
-    <div style="font-size:2.0em" align="center">
-        Blue Terra Engineering
+    <div align="center">
+        <h1 style="font-size:2.0em">Blue Terra Engineering</h1>
     </div>
-    <div style="font-size:1.7em" align="center">
-        KYC Program
+    <div align="center">
+        <h1 style="font-size:1.7em">KYC Program</h1>
     </div>
-</p>
+</div>
 
 
 
