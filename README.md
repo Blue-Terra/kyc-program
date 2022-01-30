@@ -52,6 +52,8 @@ To build this program run:
 
     anchor build 
 
+On successful build you will have a `target` directory in your top level directory.
+
 ## IV. Deployment 
 
 To deploy the program follow the steps below: 
