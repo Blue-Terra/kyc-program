@@ -67,7 +67,6 @@ Finally run the following:
 
 ## V. Client Side Instrumentation
 
-Great, now you have this Solana Nonce Program onchain, now you want your client to interact with your program. 
 We recommend using the [@project-serum/anchor](https://www.npmjs.com/package/@project-serum/anchor) to instrument 
 program rpc requests from the client. 
 
