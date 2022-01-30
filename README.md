@@ -67,6 +67,20 @@ Finally run the following:
 
 ## V. Client Side Instrumentation
 
-We recommend using the [@project-serum/anchor](https://www.npmjs.com/package/@project-serum/anchor) to instrument 
-program rpc requests from the client. 
+We recommend using:
 
+1) [@project-serum/anchor](https://www.npmjs.com/package/@project-serum/anchor) to instrument program rpc requests from the client. 
+2) [@solana/web3.js](https://www.npmjs.com/package/@solana/web3.js) for NodeJS Solana libraries. 
+3) [@civic/solana-gateway-react](https://www.npmjs.com/package/@civic/solana-gateway-react) for Civic's KYC Libraries and React Providers. 
+4) [@solana/wallet-adapter](https://www.npmjs.com/package/@solana/wallet-adapter) for Solana React wallet adapter components. 
+<br/>
+<br/>
+A high level sketch of this interaction can be found below. 
+<br/>
+<br/>
+<p align="center">
+    <img
+        style="width:80%;height:auto;"
+        src="./docs/img/client.png">
+    </img>
+</p>
