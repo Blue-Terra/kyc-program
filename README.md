@@ -32,7 +32,7 @@ The following is the Anchor Program used in our claim land and kyc process.
 
 This repo contains the source code for the Blue Terra [Civic](https://www.civic.com/) KYC nonce Solana program.
 
-The program is a minimalist nonce, written in Anchor Lang and provides Blue Terra a simple way to keep track of KYC verified wallets. 
+The program is a minimalist nonce written in Anchor Lang and provides Blue Terra a simple way to keep track of KYC verified wallets. 
 
 If a Blue Terra NFT holder does not have valid KYC, they will be able to interact with a KYC Program to claim their land. 
 
