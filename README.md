@@ -38,7 +38,7 @@ If a Blue Terra NFT holder does not have valid KYC, they will be able to interac
 
 The program contains one instruction `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
 
-On detection of valid KYC status, the program will log the `walletAddress` and `gatewayToken` of the user.
+On detection of valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user.
 
 # III. Requirements
 
