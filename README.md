@@ -5,8 +5,8 @@
         src="./docs/img/logo.png">
     </img>
     <div align="center">
-        <p style="font-size:22px">Blue Terra Engineering</p>
-        <p style="font-size:20px">KYC Program</p>
+        <h1 style="font-size:22px">Blue Terra Engineering</h1>
+        <h1 style="font-size:20px">KYC Program</h1>
     </div>
 </div>
 
