@@ -5,12 +5,12 @@
         src="./docs/img/logo.png">
     </img>
     <div align="center">
-        <p style="font-size:22px;line-height:40px">
+        <h3 style="font-size:22px;line-height:40px">
             Blue Terra Engineering
             <br/>
             KYC Program
             <br/>
-        </p>
+        </h3>
         <br/>
     </div>
 </p>
