@@ -14,11 +14,15 @@
     KYC Program
 </div>
 
-# I. Overview
+# I. Overview 
+
+At Blue Terra we believe in the vision of building a protocol for the democratizing property ownership rights. Doing this means sharing some of the secret sauce that makes Blue Terra possible so that others may expand the model. The following is the Anchor Program used in our claim land and kyc process.
+
+# I. Program
 
 This repo contains the source code for the Blue Terra [Civic](https://docs.civic.com/) KYC nonce Solana program.
 
-The program is minimalist nonce program and provides Blue Terra a simple way to keep track of KYC verified wallets. If a Blue Terra NFT holder does not have valid KYC, they will be able to interact with a KYC Program to claim their land. 
+The program is minimalist nonce program, written in Anchor Lang and provides Blue Terra a simple way to keep track of KYC verified wallets. If a Blue Terra NFT holder does not have valid KYC, they will be able to interact with a KYC Program to claim their land. 
 
 The program contains one instruction `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
 
