@@ -71,5 +71,3 @@ Great, now you have this Solana Nonce Program onchain, now you want your client 
 We recommend using the [@project-serum/anchor](https://www.npmjs.com/package/@project-serum/anchor) to instrument 
 program rpc requests from the client. 
 
-Additionally, the [@solana/web3.js](https://solana-labs.github.io/solana-web3.js/) may be of use to you to query the program.
-
