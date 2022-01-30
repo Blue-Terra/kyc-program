@@ -33,7 +33,7 @@ The program is a minimalist nonce written in Anchor Lang and provides Blue Terra
 
 In particular, if a Blue Terra NFT holder has a valid KYC, through the posession of a a valid civic `gatewayToken` spl token, then they will be able to interact with the `kyc-program` to claim their land and activate the leases embedded within their NFTs.
 
-The program contains one instruction `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
+The program contains one instruction, `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
 
 On detection of valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user to the program standard output.
 
