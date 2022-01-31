@@ -31,20 +31,7 @@ This repo contains the source code for the Blue Terra [Civic](https://www.civic.
 2) [Solana](https://docs.solana.com/cli/install-solana-cli-tools)
 3) [Anchor](https://github.com/project-serum/anchor)
 
-# III. Program Overview
-
-The following is a high level description of the Anchor Program used in our claim land and KYC process. 
-
-The program is a minimalist nonce written in Anchor Lang and provides Blue Terra a simple way to keep track of KYC verified wallets and civic tokens on-chain.
-
-In particular, if a Blue Terra NFT holder has a valid KYC, through the posession of a valid civic `gatewayToken` SPL token, then they will be able to interact with the `kyc-program` to claim their land and activate the leases embedded within their NFTs.
-
-The program contains one instruction, `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
-
-On detection of a valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user to the program standard output.
-
-
-# IV. Program IDL
+# III. Program IDL
 
 ```
 {
@@ -75,6 +62,21 @@ On detection of a valid Civic KYC status, the program will log the `walletAddres
   ]
 }
 ```
+
+# IV. Program Overview
+
+The following is a high level description of the Anchor Program used in our claim land and KYC process. 
+
+The program is a minimalist nonce written in Anchor Lang and provides Blue Terra a simple way to keep track of KYC verified wallets and civic tokens on-chain.
+
+In particular, if a Blue Terra NFT holder has a valid KYC, through the posession of a valid civic `gatewayToken` SPL token, then they will be able to interact with the `kyc-program` to claim their land and activate the leases embedded within their NFTs.
+
+The program contains one instruction, `claimLand`. This instruction leverages the Civic Gateway decorator to detect the KYC status of a given `walletAddress` and `gatewayToken`. 
+
+On detection of a valid Civic KYC status, the program will log the `walletAddress` and `gatewayToken` of the user to the program standard output.
+
+
+
 
 
 
